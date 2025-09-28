@@ -1,0 +1,23 @@
+body {
+    background-color: black;
+    color: rgb(209, 136, 67);
+    font-family: "Uncial Antiqua", system-ui;
+    display:flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: 700px;
+    margin: 0;
+}
+
+button {
+    background-color: black;
+    color: rgb(231, 177, 75);
+}
+
+.passo {
+    display: none;
+}
+
+.passo.ativo {
+    display:block;
+}
